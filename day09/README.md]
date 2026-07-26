@@ -1,0 +1,49 @@
+# Bank Management System – Day09
+## Overview
+This project is part of my Python Object-Oriented Programming practice.
+
+Day09 extends the previous project by adding:
+- Branch Tree Structure
+- Recursive Total Balance
+- Transfer Graph
+- Breadth-First Search (BFS)
+
+## Features
+### Account Registry
+- Add accounts
+- Find account by number
+- List all accounts
+- Top accounts by balance
+- Binary search by account number
+- Recursive transaction total
+
+### Branch Tree
+- Head Office
+- Regional Branches
+- Local Branches
+- Recursive total balance calculation
+### Transfer Graph
+- Account transfer connections
+- Breadth-First Search (BFS)
+- Find all reachable accounts
+## Project Structure
+
+day09/
+│── accounts.py
+│── registry.py
+│── branch.py
+│── graph.py
+└── main.py
+## Algorithms Used
+- Dictionary (O(1) lookup)
+- Sorting
+- Binary Search
+- Recursion
+- Tree
+- Graph
+- Breadth-First Search (BFS)
+## How to Run
+python main.py
+## Author
+Dawa Asfaw
+IBT College – Advanced Software Development Program
