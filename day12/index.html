@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Habesha Eatery | Reservation Page</title>
+
+    <meta
+      name="description"
+      content="Reserve your table at Habesha Eatery in Addis Ababa. Enjoy authentic Ethiopian food in a welcoming environment."
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Habesha Eatery</h1>
+
+      <nav aria-label="Main Navigation">
+        <ul>
+          <li><a href="#reservation">Reservation</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#location">Location</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="reservation">
+        <h2>Reserve Your Table</h2>
+        <form action="/reservation" method="post">
+          <fieldset>
+            <legend>Reservation Details</legend>
+            <label for="name">Full Name</label>
+            <input
+              id="name"
+              name="fullname"
+              type="text"
+              required
+              minlength="3"
+              autocomplete="name"
+            />
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              required
+              autocomplete="email"
+            />
+            <label for="phone">Phone Number</label>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              required
+              pattern="0(9|7)[0-9]{8}"
+              title="Example: 0911234567"
+            />
+            <label for="date">Reservation Date</label>
+            <input id="date" name="date" type="date" required />
+            <label for="party">Party Size</label>
+            <input
+              id="party"
+              name="party"
+              type="number"
+              min="1"
+              max="20"
+              required
+            />
+            <label for="message">Special Requests</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="Any special request..."
+            ></textarea>
+            <button type="submit">Reserve Now</button>
+          </fieldset>
+        </form>
+      </section>
+      <hr />
+      <section id="menu">
+        <h2>Today's Menu</h2>
+        <table>
+          <caption>
+            Habesha Eatery Menu (Price in ETB)
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Food</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price (ETB)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Shiro</th>
+              <td>Traditional chickpea stew served with Injera</td>
+              <td>180</td>
+            </tr>
+            <tr>
+              <th scope="row">Tibs</th>
+              <td>Fried beef with vegetables</td>
+              <td>350</td>
+            </tr>
+            <tr>
+              <th scope="row">Kitfo</th>
+              <td>Seasoned minced beef</td>
+              <td>420</td>
+            </tr>
+            <tr>
+              <th scope="row">Firfir</th>
+              <td>Injera mixed with spicy sauce</td>
+              <td>170</td>
+            </tr>
+            <tr>
+              <th scope="row">Fresh Juice</th>
+              <td>Seasonal fruit juice</td>
+              <td>90</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <section id="location">
+        <h2>Our Restaurant</h2>
+        <figure>
+          <img
+            src="assets/shiro.png"
+            alt="Traditional Ethiopian Shiro served with fresh Injera"
+            width="600"
+            height="400"
+            loading="lazy"
+          />
+          <figcaption>Our famous Shiro Special</figcaption>
+        </figure>
+        <iframe
+          src="https://www.google.com/maps/embed?pb="
+          title="Habesha Eatery Location"
+          width="600"
+          height="400"
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Habesha Eatery | Designed by Dawa Asfaw</p>
+    </footer>
+  </body>
+</html>
