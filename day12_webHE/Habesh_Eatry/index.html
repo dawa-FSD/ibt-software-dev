@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Habesha Eatery | Home</title>
+
+    <meta
+      name="description"
+      content="Reserve your table at Habesha Eatery and enjoy delicious Ethiopian food."
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Habesha Eatery</h1>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Reserve Your Table</h2>
+
+        <form>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" required />
+
+          <label for="date">Reservation Date</label>
+          <input type="date" id="date" required />
+
+          <label for="party">Party Size</label>
+          <input type="number" id="party" min="1" max="20" required />
+
+          <label for="request">Special Requests</label>
+
+          <textarea id="request" rows="5"></textarea>
+
+          <button type="submit">Reserve Table</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Today's Menu</h2>
+
+        <table>
+          <caption>
+            Habesha Eatery Menu (ETB)
+          </caption>
+
+          <thead>
+            <tr>
+              <th scope="col">Food</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price (ETB)</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Doro Wat</td>
+              <td>Chicken stew with Injera</td>
+              <td>420</td>
+            </tr>
+
+            <tr>
+              <td>Tibs</td>
+              <td>Grilled Beef</td>
+              <td>380</td>
+            </tr>
+
+            <tr>
+              <td>Kitfo</td>
+              <td>Minced Beef</td>
+              <td>450</td>
+            </tr>
+
+            <tr>
+              <td>Shiro</td>
+              <td>Chickpea Stew</td>
+              <td>250</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Our Special Dish</h2>
+
+        <img
+          src="assets/doro-wat.jpg"
+          alt="Traditional Ethiopian Doro Wat served with fresh Injera"
+        />
+
+        <h2>Find Us</h2>
+
+        <iframe
+          title="Habesha Eatery Location"
+          src="https://www.google.com/maps/embed?pb="
+          loading="lazy"
+        >
+        </iframe>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Habesha Eatery. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
