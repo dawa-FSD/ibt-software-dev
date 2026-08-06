@@ -1,0 +1,97 @@
+/* Global Reset */
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+/* STEP 1
+.page Grid rows auto / 1fr / auto
+*/
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+/*
+STEP 2
+Navbar Flexbox + Sticky
+*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #7a3e00;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}
+/*
+Hero
+*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+/*
+STEP 3
+Menu Grid auto-fit
+*/
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+/*
+STEP 4
+Card Flexbox column
+*/
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  min-height: 220px;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*
+STEP 5
+Popular badge
+*/
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #d4af37;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #222;
+  color: white;
+}
