@@ -1,0 +1,91 @@
+/* Basic reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+/* Menu section */
+.menu {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.menu h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Mobile-first:
+   One column by default */
+.menu-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+/* Menu card */
+.menu-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  /* Animation */
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.menu-card h2 {
+  margin-bottom: 10px;
+}
+
+.menu-card p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.menu-card span {
+  font-weight: bold;
+}
+
+/* Hover animation */
+.menu-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Tablet:
+   Two columns at 768px */
+@media (min-width: 768px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop:
+   Three columns at 1024px */
+@media (min-width: 1024px) {
+  .menu-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .menu-card {
+    transition: none;
+  }
+
+  .menu-card:hover {
+    transform: none;
+  }
+}
