@@ -15,6 +15,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: burlywood;
 }
 
 /* Navbar */
@@ -22,7 +23,7 @@ body {
 header {
   position: sticky;
   top: 0;
-  background: white;
+  background: rgb(from 700 800 1000);
   z-index: 1000;
 }
 
@@ -30,6 +31,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgb(1000, 500, 800);
 
   padding: 20px;
 }
@@ -55,7 +57,7 @@ header {
   min-height: 80vh;
 
   background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hero.jpg);
+    linear-gradient(rgba(800, 40, 0, 0.5), rgba(600, 0, 0, 0.5)), url(hero.jpg);
 
   background-size: cover;
   background-position: center;
