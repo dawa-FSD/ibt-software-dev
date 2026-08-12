@@ -1,0 +1,5 @@
+
+`expected.txt`
+```text
+1: 517.50 ETB
+2: 230.00 ETB
