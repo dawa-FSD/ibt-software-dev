@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validated Signup</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Signup Form</h1>
+
+      <form id="signupForm">
+        <div>
+          <label for="name">Full Name</label>
+
+          <input id="name" type="text" placeholder="Enter your full name" />
+        </div>
+
+        <div>
+          <label for="phone">Phone Number</label>
+
+          <input id="phone" type="tel" placeholder="0912345678" />
+        </div>
+
+        <button type="submit">Sign Up</button>
+
+        <p id="error"></p>
+      </form>
+
+      <p id="count">0 people have signed up.</p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

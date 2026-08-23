@@ -1,0 +1,50 @@
+Validated Persistent Signup Form
+
+1. The page displays a signup form.
+
+2. The form contains a labelled name input.
+
+3. The form contains a labelled phone input.
+
+4. The form contains a submit button.
+
+5. The form contains a dedicated error area.
+
+6. Submitting the form does not reload the page.
+
+7. Input values are trimmed before validation.
+
+8. An empty name is rejected.
+
+9. A name with fewer than two characters is rejected.
+
+10. The message for an invalid name is:
+Enter your full name.
+
+11. An invalid Ethiopian phone number is rejected.
+
+12. The phone validation uses:
+^(?:\+251|0)9\d{8}$
+
+13. A valid phone such as 0912345678 is accepted.
+
+14. A valid phone such as +251912345678 is accepted.
+
+15. The message for an invalid phone is:
+Enter a valid Ethiopian phone number.
+
+16. Only the first validation problem is shown.
+
+17. A valid signup is saved to localStorage as JSON.
+
+18. The form is cleared after a successful signup.
+
+19. Saved signups are restored after page reload.
+
+20. The number of saved people is displayed when the page loads.
+
+21. Missing localStorage data is handled safely.
+
+22. Corrupt JSON data is handled safely.
+
+23. User messages are displayed with textContent.

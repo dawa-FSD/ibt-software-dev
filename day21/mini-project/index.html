@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Validated Signup</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header>
+        <div>
+          <p class="label">MINI PROJECT</p>
+          <h1>Signup Form</h1>
+          <p>Validated and persistent signup form.</p>
+        </div>
+
+        <button id="themeBtn" type="button">🌙 Dark</button>
+      </header>
+
+      <section class="card">
+        <form id="signupForm">
+          <div class="field">
+            <label for="name"> Full Name </label>
+
+            <input id="name" type="text" placeholder="Enter your full name" />
+          </div>
+
+          <div class="field">
+            <label for="phone"> Ethiopian Phone </label>
+
+            <input
+              id="phone"
+              type="tel"
+              placeholder="0912345678 or +251912345678"
+            />
+          </div>
+
+          <p id="error"></p>
+
+          <button class="submit" type="submit">Sign Up</button>
+        </form>
+
+        <div class="count">
+          <span id="count"> 0 people have signed up. </span>
+        </div>
+
+        <section>
+          <h2>Registered People</h2>
+
+          <ul id="signupList"></ul>
+        </section>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
