@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Addis Market</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Addis Market</h1>
+      <!-- Exercise 1 -->
+      <section>
+        <h2>Exercise 1</h2>
+        <p id="message">DOM Manipulation Practice</p>
+      </section>
+      <!-- Exercise 2 -->
+      <section>
+        <h2>Exercise 2 - Ethiopian Cities</h2>
+        <ul id="cities"></ul>
+      </section>
+      <!-- Exercise 3 -->
+      <section>
+        <h2>Exercise 3 - Event Bubbling</h2>
+        <div id="button-container">
+          <button id="test-button">Click Me</button>
+        </div>
+      </section>
+      <!-- Exercise 4 -->
+      <section>
+        <h2>Exercise 4 - Delete Items</h2>
+        <ul id="delete-list">
+          <li>Apple <button class="delete">Delete</button></li>
+          <li>Banana <button class="delete">Delete</button></li>
+          <li>Bread <button class="delete">Delete</button></li>
+        </ul>
+      </section>
+      <!-- Exercise 5 -->
+      <section>
+        <h2>Exercise 5 - Simple Form</h2>
+        <form id="simple-form">
+          <input id="simple-input" type="text" placeholder="Enter item" />
+          <button type="submit">Add</button>
+        </form>
+        <ul id="simple-list"></ul>
+      </section>
+      <!-- Week 2 Project -->
+      <section>
+        <h2>Addis Market Shopping List</h2>
+        <form id="add-form">
+          <input type="text" id="name" placeholder="Item name" required />
+          <input
+            type="number"
+            id="price"
+            placeholder="Price in ETB"
+            min="0.01"
+            step="0.01"
+            required
+          />
+          <button type="submit">Add Item</button>
+        </form>
+        <ul id="list"></ul>
+        <h3>Total: <span id="total">0.00</span> ETB</h3>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
