@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Live Dish Data</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="header">
+        <div>
+          <p class="eyebrow">LIVE DATA</p>
+          <h1>Dish List</h1>
+          <p class="subtitle">Browse dishes loaded from a live JSON API.</p>
+        </div>
+
+        <button id="refresh" class="refresh-btn">↻ Refresh</button>
+      </header>
+
+      <section class="status-card">
+        <span class="status-dot"></span>
+        <p id="loading">Ready to load dishes...</p>
+      </section>
+
+      <section>
+        <ul id="list" class="dish-list"></ul>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

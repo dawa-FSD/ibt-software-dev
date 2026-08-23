@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Country Facts</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <header class="hero">
+        <p class="eyebrow">COUNTRY EXPLORER</p>
+
+        <h1>Country Facts</h1>
+
+        <p class="subtitle">
+          Search for a country and discover useful information about it.
+        </p>
+      </header>
+
+      <form id="searchForm" class="search-form">
+        <input
+          id="countryInput"
+          type="text"
+          placeholder="Enter country name..."
+          autocomplete="off"
+        />
+
+        <button type="submit">Search</button>
+      </form>
+
+      <p id="status" class="status">Enter a country name to begin.</p>
+
+      <section id="facts">
+        <div class="welcome">
+          <div class="globe">🌍</div>
+
+          <h2>Explore the World</h2>
+
+          <p>Search for countries like Ethiopia, Canada, Japan or Brazil.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
