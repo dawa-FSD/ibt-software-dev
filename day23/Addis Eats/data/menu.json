@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Doro Wat",
+    "category": "Main",
+    "price": 3046,
+    "spicy": true,
+    "vegetarian": false,
+    "description": "Traditional Ethiopian chicken stew prepared with berbere and spices.",
+    "image": "./images/doro-wat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shiro",
+    "category": "Vegetarian",
+    "price": 120,
+    "spicy": false,
+    "vegetarian": true,
+    "description": "Smooth chickpea stew cooked with Ethiopian spices.",
+    "image": "./images/shiro.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tibs",
+    "category": "Main",
+    "price": 1888,
+    "spicy": true,
+    "vegetarian": false,
+    "description": "Tender Ethiopian-style sautéed beef with onions and peppers.",
+    "image": "./images/tibs.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Kitfo",
+    "category": "Main",
+    "price": 2067,
+    "spicy": true,
+    "vegetarian": false,
+    "description": "Seasoned minced beef served with Ethiopian spices and butter.",
+    "image": "./images/kitfo.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Firfir",
+    "category": "Breakfast",
+    "price": 650,
+    "spicy": true,
+    "vegetarian": true,
+    "description": "Soft injera mixed with berbere sauce and traditional spices.",
+    "image": "./images/firfir.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Beyaynetu",
+    "category": "Combination",
+    "price": 799,
+    "spicy": true,
+    "vegetarian": true,
+    "description": "A colorful combination of Ethiopian vegetarian dishes.",
+    "image": "./images/beyaynetu.jpg"
+  }
+]
