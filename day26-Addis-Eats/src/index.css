@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #222;
+}
+
+header {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin: 0 0 10px;
+  font-size: 36px;
+}
+
+header p {
+  margin: 0;
+  font-size: 18px;
+}
+
+main {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+main > div {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+main > div h3 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+main > div p {
+  margin: 0;
+  font-weight: bold;
+}
