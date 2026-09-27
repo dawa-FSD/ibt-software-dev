@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Doro Wat",
+    "category": "Ethiopian",
+    "price": 350,
+    "description": "Traditional Ethiopian spicy chicken stew served with injera.",
+    "emoji": "🍛"
+  },
+  {
+    "id": 2,
+    "name": "Shiro",
+    "category": "Ethiopian",
+    "price": 200,
+    "description": "Smooth and flavorful chickpea stew served with fresh injera.",
+    "emoji": "🥘"
+  },
+  {
+    "id": 3,
+    "name": "Tibs",
+    "category": "Ethiopian",
+    "price": 450,
+    "description": "Tender sautéed beef with onions, peppers and Ethiopian spices.",
+    "emoji": "🥩"
+  },
+  {
+    "id": 4,
+    "name": "Margherita Pizza",
+    "category": "Pizza",
+    "price": 550,
+    "description": "Classic pizza with tomato sauce, mozzarella and fresh basil.",
+    "emoji": "🍕"
+  },
+  {
+    "id": 5,
+    "name": "Beef Burger",
+    "category": "Burgers",
+    "price": 480,
+    "description": "Juicy beef burger with cheese, lettuce and fresh vegetables.",
+    "emoji": "🍔"
+  },
+  {
+    "id": 6,
+    "name": "Fresh Juice",
+    "category": "Drinks",
+    "price": 180,
+    "description": "Freshly prepared tropical fruit juice.",
+    "emoji": "🥤"
+  }
+]
